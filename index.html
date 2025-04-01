@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<style>
+    body {
+       background-image: url(background.jpeg);
+    }
+    .name-container {
+        background-image: url(bg.gif);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap; 
+    }
+    .letter {
+        font-size: clamp(30px, 5vw, 50px);
+        font-weight: bold;
+        color: black;
+        width: clamp(50px, 8vw, 70px); 
+        height: clamp(50px, 8vw, 70px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: relative;
+    }
+    .red { background-color: purple; }
+    .blue { background-color: lightpink; }
+    .green { background-color: lightgreen; }
+    .orange { background-color: lightcyan; }
+    .purple { background-color: lightgray; }
+    .yellow { background-color: lightyellow; }
+    .pink { background-color: lightseagreen; }
+    .teal { background-color: darkred; }
+    .indigo { background-color: lightgoldenrodyellow; }
+    .dark-gray { background-color: #343a40; }
+    .ter { background-color: white; }
+    .icon {
+        position: absolute;
+        font-size: clamp(20px, 4vw, 30px); 
+        color: white;
+    }
+    @media (max-width: 600px) {
+        .name-container {
+            gap: 5px; 
+        } 
+    }
+</style>
+<body>
+    <div class="name-container">
+        <div class="letter red">R</div>
+        <div class="letter blue">H</div>
+        <div class="letter green">E</div>
+        <div class="letter orange">A</div>
+        <div class="letter purple">N</div>
+        <div class="letter yellow">N</div>
+        <div class="letter pink">A</div>
+    </div>
+
+    <div class="name-container">
+        <div class="letter teal">C</div>
+        <div class="letter indigo">E</div>
+        <div class="letter dark-gray">N</div>
+        <div class="letter ter">T</div>
+        <div class="letter blue">E</div>
+        <div class="letter green">N</div>
+        <div class="letter orange">O</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
